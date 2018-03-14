@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Sat Jan 13 22:44:52 CST 2018
+0.baseType=DIRECTORY
+0.base=C\:\\Users\\caorb1\\Downloads\\ARouter-master\\360FloatWindowDemo\\app\\build\\intermediates\\transforms\\dex\\release\\0
+0.path=classes.dex
+0.set=DEX
+count=1

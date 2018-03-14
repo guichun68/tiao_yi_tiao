@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/btn_click"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5秒后点击"/>
+
+    <Button
+        android:layout_below="@id/btn_click"
+        android:id="@+id/start_float_window"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Float Window" >
+    </Button>
+
+    <Button
+        android:id="@+id/btn_stop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/start_float_window"
+        android:text="停止点击"/>
+
+    <Button
+        android:id="@+id/btn_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_stop"
+        android:text="点击测试"/>
+
+
+</RelativeLayout>
